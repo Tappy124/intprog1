@@ -5,8 +5,8 @@ const port = 3000;
 
 const profile = {
   education: {
-    degree: 'Bachelor of Science in Information Technology (BSIT)',
     year: '2nd Year Student (2023-2024)',
+    degree: 'Bachelor of Science in Information Technology (BSIT)',
     university: 'University of Southern Philippines Foundation (USPF)'
   },
   skills: [
