@@ -32,7 +32,8 @@ const profile = {
           'Assisted senior developers in building prototypes and proof-of-concept applications',
           'Worked on front-end and back-end tasks, gaining hands-on experience with HTML, CSS, and JavaScript',
           'Participated in team meetings and contributed ideas to improve project workflows',
-          'Learned about software development best practices and industry tools'
+          'Learned about software development best practices and industry tools',
+          'kusug mukaon '
         ]
       }
   ],
