@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors'); 
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
@@ -9,11 +9,8 @@ const profile = {
     degree: 'Bachelor of Science in Information Technology (BSIT)',
     university: 'University of Southern Philippines Foundation (USPF)',
     highschool: 'University of Southern Philippines Foundation (USPF)',
-    year: '(2019-2020)'
-    university: 'University of Southern Philippines Foundation (USPF)'.
-    highschool: 'University of Southern Philippines Foundation (USPF)',
-    year: '(2019-2020)'
-  }
+    yearHighSchool: '(2019-2020)' // Changed the key to avoid duplication
+  },
   skills: [
     'Team Collaboration',
     'Time Management',
@@ -27,25 +24,23 @@ const profile = {
     'Git',
     'SQL'
   ],
-  
   experience: [
     {
-        'position': 'Intern',
-        'company': 'Software Startup',
-        'year': 'Summer 2014',
-        'responsibilities': [
-          'Assisted senior developers in building prototypes and proof-of-concept applications',
-          'Worked on front-end and back-end tasks, gaining hands-on experience with HTML, CSS, and JavaScript',
-          'Participated in team meetings and contributed ideas to improve project workflows',
-          'Learned about software development best practices and industry tools',
-          'kusug mukaon '
-        ]
-      }
+      position: 'Intern',
+      company: 'Software Startup',
+      year: 'Summer 2014',
+      responsibilities: [
+        'Assisted senior developers in building prototypes and proof-of-concept applications',
+        'Worked on front-end and back-end tasks, gaining hands-on experience with HTML, CSS, and JavaScript',
+        'Participated in team meetings and contributed ideas to improve project workflows',
+        'Learned about software development best practices and industry tools',
+        'kusug mukaon '
+      ]
+    }
   ],
   awards: [
     'Best Hackathon Project - Coding Club (2014)',
     'Scholarship for Academic Excellence - University of Example (2014)'
-    
   ],
   personalInfo: {
     name: 'Tapilot, Ian Christian Lopez',
